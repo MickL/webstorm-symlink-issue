@@ -1,0 +1,16 @@
+{
+  "name": "@my-namespace/my-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "dependencies": {
+    "@my-namespace/my-lib1": "^1.0.0",
+    "@my-namespace/my-lib2": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
